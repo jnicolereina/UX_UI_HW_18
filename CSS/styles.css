@@ -1,0 +1,82 @@
+.inline-block {
+    display: inline-block; /* This will cause the navbar elements to line up next to each other */
+    vertical-align: top;   /* Ensures all elements align next to one another */
+
+}
+.fontsizefornav {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo {
+    width: 10%; 
+    height: auto;
+    padding: 1%;
+    /*text-align: center; /* Centering the images inside the logo container */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Targeting the nav HTML element */
+nav {
+    width: 73%;
+    padding: 1%;
+}
+
+/* Targeting the base HTML ul element */
+ul {
+    width: 80%;
+    margin-left: auto; /* Centering the unordered list */
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+img {
+    width: 100%; /* Makes the image responsive */
+    height: auto; /* Maintains the aspect ratio */
+}
+
+.heroImg {
+    height: 600px;
+    width: 100%;
+    height: auto;
+    padding: 25px;
+}
+
+.content {
+    width: 100%;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #373738;
+    padding: 20px; /* Adjust the padding as needed to center your <ul> and <li> elements */
+}
+
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0; /* Reset padding for the <ul> */
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+   color: white;
+}
+
+footer li {
+    padding: 10px; /* Adjust padding to center the text inside <li> elements */
+    display: inline; /* This ensures <li> elements are displayed next to each other */
+}
+
+.footer-text {
+    color: #fbfafa;
+}
+
+body {
+    background-color: #ffffff;
+   }
+
+   p {
+    font-family: "Newtime r", Arial, Helvetica, sans-serif, serif;
+  }
+  
