@@ -85,16 +85,48 @@ body {
     padding: 0;
 }
 
+main {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    background-color: #fff;
+
+    border-radius: 0px;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.product-card img {
+    width: 100%; /* Responsive images */
+    height: auto;
+}
+
 .image-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0%;
+    display: flex;                  /* Use flexbox for layout */
+    justify-content: flex-start;    /* Align items to the left */
+    align-items: center;            /* Center items vertically */
+    padding: 0 10px;               /* Add horizontal padding to the container */
+    margin: 0;                     /* Remove margin from the container */
 }
 
 .image-container img {
-    width: 25%; /* Adjust width as needed */
-    height: auto; /* Maintain aspect ratio */
+    width: 8.1%;                    /* Set the width of the images */
+    height: auto;                  /* Maintain aspect ratio */
+    margin: 0;                     /* Remove any margin around images */
+    display: block;                /* Ensure no extra space from inline-block behavior */
 }
 
 .centered-text {
@@ -107,5 +139,29 @@ body {
 .centered-text h3 {
     text-align: center;          /* Center text within the h3 */
     margin: 0;                   /* Remove default margin */
+}
+
+
+.content-section {
+ 
+    background-color: #6B282C;        /* White background for the section */
+    width: 100%;    
+   font-family: "Newtime r", Arial, Helvetica, sans-serif, serif;
+color: #ffffff;
+    border-radius: 0px;           /* Rounded corners */
+    padding: 20px;                 /* Padding inside the section */
+    max-width: 100%;              /* Maximum width */
+    margin: 20px auto;             /* Center the section on the page */
+
+}
+
+.section-title {
+    font-size: 24px;               /* Title font size */
+    margin-bottom: 10px;           /* Space below the title */
+}
+
+.section-description {
+    font-size: 14px;               /* Description font size */
+    margin-bottom: 20px;           /* Space below the description */
 }
 
