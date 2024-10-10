@@ -98,25 +98,33 @@ h1 {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
+    max-width: 1200px; /* Set a maximum width for the grid */
+    margin: 0 auto;    /* Center the grid horizontally */
+    padding: 20px;     /* Optional: add some padding around the grid */
+    margin-left: 365px;
 }
 
 .product-card {
     background-color: #fff;
 
     border-radius: 0px;
-    padding: 10px;
-    text-align: center;
-    
+    text-align: left;
+    font-family: "Newtime r", Arial, Helvetica, sans-serif, serif;
+    font-size: 14px; /* Set your desired font size */
 }
 
 .product-card img {
-    width: 100%; /* Responsive images */
+    display: block;      /* Use block to ensure it behaves properly */
+    margin: 0 auto;     /* Center the image within the card */
+    width: 100%;        /* Responsive images */
     height: auto;
+    padding-top: 10px;
+    
 }
 
 .image-container {
     display: flex;                  /* Use flexbox for layout */
-    justify-content: flex-start;    /* Align items to the left */
+    justify-content: center;    /* Align items to the left */
     align-items: center;            /* Center items vertically */
     padding: 0 10px;               /* Add horizontal padding to the container */
     margin: 0;                     /* Remove margin from the container */
@@ -146,13 +154,13 @@ h1 {
  
     background-color: #6B282C;        /* White background for the section */
     width: 100%;    
-   font-family: "Newtime r", Arial, Helvetica, sans-serif, serif;
-color: #ffffff;
+    font-family: "Newtime r", Arial, Helvetica, sans-serif, serif;
+    color: #ffffff;
     border-radius: 0px;           /* Rounded corners */
     padding: 20px;                 /* Padding inside the section */
     max-width: 100%;              /* Maximum width */
     margin: 20px auto;             /* Center the section on the page */
-
+font-size: 14px;
 }
 
 .section-title {

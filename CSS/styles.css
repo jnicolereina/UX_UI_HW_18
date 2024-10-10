@@ -40,7 +40,7 @@ img {
     height: 600px;
     width: 100%;
     height: auto;
-    padding: 25px;
+    padding: 0px;
 }
 
 .content {
@@ -87,15 +87,38 @@ body {
 
 .image-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     padding: 0%;
 }
 
 .image-container img {
-    width: 25%; /* Adjust width as needed */
+    width: 33.3%; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
 }
+
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 0px;
+}
+
+.product-card {
+    background-color: #fff;
+
+    border-radius: 0px;
+    padding: 10px;
+    text-align: left;
+    font-family: "Newtime r", Arial, Helvetica, sans-serif, serif;
+    font-size: 14px; /* Set your desired font size */
+}
+
+.product-card img {
+    width: 100%; /* Responsive images */
+    height: auto;
+}
+
 
 .centered-text {
     display: flex;               /* Use flexbox */
